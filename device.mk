@@ -271,6 +271,11 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap \
+    GCam
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
