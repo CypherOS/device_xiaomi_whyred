@@ -1,2 +1,4 @@
+#============= shell ==============
+allow shell kernel:system syslog_read;
 allow shell sysfs:file { read };
 
