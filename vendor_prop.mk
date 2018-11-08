@@ -338,3 +338,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Ignore the wrong IWLAN report when UE in W/G mode.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=1
+
+# Force disable blank
+debug.force_no_blanking=true
