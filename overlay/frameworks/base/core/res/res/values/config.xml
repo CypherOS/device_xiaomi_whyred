@@ -497,4 +497,10 @@
          or a single SIM device can have 1 phones/logical modems, but 2 physical slots (one eSIM
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
+
+    <!-- Minimum time in milliseconds between power button presses so it will be considered
+         as a camera launch. To avoid false triggers.
+    -->
+    <integer name="config_cameraPowerDoubleTapMinTime">75</integer>
+
 </resources>
