@@ -339,3 +339,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Force disable blank
 debug.force_no_blanking=true
+
+# Pie Telephony blobs
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.qti.pie.telephony=1
