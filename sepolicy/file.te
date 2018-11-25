@@ -14,6 +14,5 @@ type sysfs_fpc_dev, sysfs_type, fs_type;
 # Keylayout
 type vendor_keylayout_file, file_type, vendor_file_type;
 
-# kcal
+# Kcal
 type sysfs_kcal, fs_type, sysfs_type;
-
