@@ -351,3 +351,7 @@ debug.force_no_blanking=true
 # Pie Telephony blobs
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.pie.telephony=1
+
+# Density
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=420
