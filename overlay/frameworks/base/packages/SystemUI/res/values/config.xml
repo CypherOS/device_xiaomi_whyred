@@ -59,6 +59,9 @@
         <item>100</item> <!-- 4: SUN -->
     </integer-array>
 
+    <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
+    <bool name="doze_pickup_performs_proximity_check">true</bool>
+
     <!-- List of Carrier one mcc mncs-->
     <string-array name="config_carrier_one_networks" translatable="false">
         <item>405840</item>
